@@ -1,0 +1,84 @@
+body {
+
+    margin:0 ;
+    padding-top: 500px;
+    text-align: center;
+}
+
+.profile {
+
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+
+    font-size: 50px;
+    font-family: 'Russo One', cursive;
+
+}
+
+h2 {
+
+    font-size: 30px;
+    font-family:monospace;
+    font-weight: 300;
+}
+
+
+
+#bio {
+
+    font-size: 30px;
+    font-family: 'Delicious Handrawn', cursive;
+    padding: 50px;
+}
+
+.line {
+    background: #0000;
+    width: 70%;
+    height: 6px;
+    margin: 8px auto;
+}
+
+.parallex-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
